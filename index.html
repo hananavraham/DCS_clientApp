@@ -52,7 +52,8 @@
                     $("#calc_form").method = method;
                     $.ajax({
                         type: method,
-                        url: 'http://localhost/~hanan/DCS/service_calculator/dcs_1.php/',
+                        //url: 'http://localhost/~hanan/DCS/service_calculator/dcs_1.php/',
+                        url: 'http://shenkar.html5-book.co.il/2017-2018/dcs/dev_11/Calculator/service_calculator/dcs_1.php',
                         data: $('#calc_form').serialize(),   
                         success:function(data){
                            $("#result").append(data.retVal);
